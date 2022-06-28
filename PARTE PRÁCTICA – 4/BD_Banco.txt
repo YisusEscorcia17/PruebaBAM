@@ -1,0 +1,29 @@
+1. Sentencias SQL para la creación de base de datos, creación de tablas y referenciación de campos
+entre las tablas.
+
+CREATE TABLE [database_name.] [schema_name.]
+
+CREATE TABLE mitabla (
+    Id_User int identify primary key,
+    Apellido varchar(20),
+    Documento int(15),
+    Email varchar(20),
+    Direccion varchar(20),
+);
+
+2. Sentencias SQL, para insertar al menos 5 registros por cada tabla.
+
+insert into mitabla values ('escorcia','1082955039','jesus.escorcia@bam.com.gt','calle falsa 123');
+
+3. Consultar las Cuentas de los clientes cuyo Apellido empiece por “M”.
+
+SELECT Cuentas FROM mitabla
+WHERE Apellido = 'M';
+
+4. Consultar todos los Movimientos de las Cuentas en Divisa DÓLAR, de aquellos Clientes cuyos
+Apellidos sean “Cifuentes”.
+
+SELECT Cuentas,clientes From mitabla_Divisa
+WHERE Apellido = 'Cifuentes';
+
+5. Guardar el .txt como BD_Banco y adjuntarlo en el Zip de la evaluación.

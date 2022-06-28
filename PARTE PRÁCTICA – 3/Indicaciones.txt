@@ -1,0 +1,13 @@
+Buenas datos importantes
+descargar el plugin img3
+
+Importante todo el ejercicio se resuelve con ese plugin. (exepto el POST porque no conozco el body ni los headers)
+
+Se muestra una imagen que muestra el comportamiento de las peticiones(img1)
+
+
+Se muestra resultado Graph Results (img2), todo esta en los archivos que se adjuntaron en la carpeta.
+
+El incremento de 10 hilos cada 10 segundos hasta llegar a 50 hilos
+en total resulta 1500 peticiones al servidor durante toda la prueba
+esa es una prueba de carga incremental
